@@ -74,7 +74,9 @@ div.intro
 
 div.intro_content
 {
-	margin: 50px 0px;
+	width: 500px;
+	max-width: 90%;
+	margin: 50px auto;
 }
 
 div.intro div.intro_logo
@@ -87,13 +89,13 @@ div.intro svg.intro_logo
 {
 	width: 381px;
 	height: 80px;
-	max-width: 80%;
+	max-width: 90%;
 	margin-bottom: 20px;
 }
 
 div.intro div.intro_formats
 {
-	padding: 30px 0px;
+	margin-top: 30px;
 }
 
 div.intro div.intro_big_text
@@ -108,7 +110,6 @@ div.intro div.intro_formats_title
 
 div.intro div.intro_file_formats
 {
-	width: 500px;
 	margin: 0px auto;
 }
 
@@ -347,12 +348,27 @@ div.ov_toolbar div.ov_toolbar_button:hover
 
 }
 
-@media only screen and (max-width: 800px)
+@media (max-width: 350px), (max-height: 700px)
 {
 
-div.intro div.intro_file_formats
+div.intro_content
 {
-	width: 90%;
+	margin: 0px auto;
+}
+
+div.intro div.intro_logo
+{
+	display: none;
+}
+
+}
+
+@media (max-width: 800px)
+{
+
+div.intro_content
+{
+	width: auto;
 }
 
 div.main_viewer canvas
