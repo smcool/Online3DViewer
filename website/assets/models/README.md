@@ -42,17 +42,17 @@ Created by [theblueturtle_](https://sketchfab.com/theblueturtle_), published und
 
 Source: https://sketchfab.com/models/b81008d513954189a063ff901f7abfe4
 
+### extrusion3.wrl
+
+MIT License, Copyright © 2010-2023 three.js authors
+
+Source: https://github.com/mrdoob/three.js
+
 ### haus.ifc
 
 MIT License, Copyright (c) 2021 Antonio González Viegas
 
 Source: https://github.com/IFCjs/test-ifc-files
-
-### house.wrl
-
-MIT License, Copyright © 2010-2023 three.js authors
-
-Source: https://github.com/mrdoob/three.js
 
 ### MultipleMeshes.bim
 

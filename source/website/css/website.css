@@ -98,13 +98,14 @@ div.intro div.intro_formats
 	margin-top: 30px;
 }
 
-div.intro div.intro_big_text
+div.intro div.intro_dragdrop_text
 {
 	font-size: 30px;
 }
 
 div.intro div.intro_formats_title
 {
+	font-size: 25px;
 	margin-bottom: 15px;
 }
 
